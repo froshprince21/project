@@ -1,0 +1,156 @@
+nav {
+    height: fit-content;
+    width:100%;
+    background: white;
+    color: black;
+    display: flex;    
+    background-color: brown;    
+    font-size: small;
+}
+
+a {
+    display: block; 
+    color: black;
+    text-decoration: none;
+    /* padding: 5px 4px;  */
+}
+
+.hu {
+  display: flex;
+  padding-left: 30px;
+}
+
+.hu-drop-down {
+    display: none;
+    text-decoration: none;
+}
+
+.hu:hover .hu-drop-down {
+    display: flex;
+    position: absolute;
+    padding: 20px 20px 20px 20px;
+    background-color: white;
+    left: 60px;
+    top: 50px;
+}
+
+.me{
+  padding: 0px 100px 0px 0px;
+}
+
+.hu2 {
+    display: flex;
+    padding-left: 45px;
+}
+
+.hu2-drop-down {
+    display: none;
+}
+
+.hu2:hover .hu2-drop-down {
+    display: flex;
+    margin-left: 0px;
+    position: absolute;
+    padding: 20px 20px 20px 20px;
+    left: 60px;
+    top: 50px;
+}
+
+.me2 {
+    padding: 0px 100px 0px 0px;
+}
+
+.hu3 {
+    display: flex;
+    padding-left: 95px;
+}
+
+.hu3-drop-down {
+    display: none;
+}
+
+.hu3:hover .hu3-drop-down {
+    display: flex;
+    margin-left: 20px;
+    position: absolute;
+    padding: 20px 20px 20px 20px;
+    left: 60px;
+    top: 50px;
+}
+
+.me3 {
+    padding: 0px 100px 0px 0px;
+}
+
+.piggy {
+    height: fit-content;
+    width: 300px;
+    outline: solid;
+    border: 0px;    
+    position: relative;
+    top: auto;
+    right: auto;
+}
+ .pig {
+    height: 180px;
+    width: 250px;
+    /* border-radius: 19px; */
+    background-color: red;
+    text-align: center;
+    padding-bottom: 30px;
+ }
+
+ .pig2  {
+    text-align: center;
+ }
+
+ .hu4 {
+    display: flex;
+    padding-left: 110px;
+}
+
+.hu4-drop-down {
+    display: none;
+}
+
+.hu4:hover .hu4-drop-down {
+    display: flex;
+    margin-left: 0px;
+    position: absolute;
+    padding: 20px 20px 20px 20px;
+    left: 60px;
+    top: 50px;
+}
+
+.me4 {
+    padding: 0px 100px 0px 0px;
+}
+
+.piggy2 {
+    height: 300px;
+    width: 290px;
+    border: 0px;
+    outline: 10px solid;
+}
+
+.pig3 {
+    height: 100px;
+    width: 210px;
+    background-color: black;
+    color: white;
+    margin-bottom: 5px;
+    position: absolute;
+}
+
+.il {
+    margin-left: 350px;
+}
+
+.il{
+    border: 1px solid #000;
+    border-radius: 15px;
+    padding: 1px 5px;
+    font-size: 14px;
+    text-decoration: none;
+    text-align: center;
+}

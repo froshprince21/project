@@ -1,0 +1,23 @@
+/* CSS Colors
+hsl =>Hue Saturation Lightness */
+
+body{
+    background-image: url(images/background\ \ 3\ \(3\).JPG);
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+div{   
+    border-radius: 10px solid white;
+    padding-top: 45px;
+    padding-right: 25px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    height: 600px; width: 400px;
+    background-color: hsl(240, 30%, 95%); margin-left: 700px;
+}
+p1{
+width: fit-content;
+padding-left: 300px;
+}
