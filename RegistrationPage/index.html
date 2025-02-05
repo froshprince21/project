@@ -6,18 +6,22 @@
     <title>Adobe.com</title>
     <link rel="shortcut icon" href="images/ADOBE 1.PNG" type="image/x-icon">
     <link rel="stylesheet" href="style2.css">
+    <script src="https://kit.fontawesome.com/136b341d58.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-    <nav>
-        
-        <div class="adobe">
-                <a href=""><img src="images/adobe-logo12.svg" width="40px" alt=""></a>
+    <div id="menubar">
+        <div>
+            <i class="fa-solid fa-bars"></i>
         </div>
+        <div class="adobe">
+           <a href=""><img src="images/adobe-logo12.svg" width="40px" alt=""></a>
+        </div>
+    </div>
+    <nav>
         <div class="hu">
-            <a href="" id="bu">Creativity & Design</a>
+            <a href="" id="bu" class="bu">Creativity & Design</a>
             <div class="hu-drop-down">
-            
                 <div class="me">
                     <div><p><b><img src="images/creative-cloud-40.svg" alt="my picture">Shop for</b></p>
                     <hr>
@@ -102,7 +106,7 @@
         </div>
 
         <div class="hu2">
-            <a href="" id="bu">PDF & E-Signature</a>
+            <a href="" id="bu" class="pdf">PDF & E-Signature</a>
             <div class="hu2-drop-down">
 
                 <div class="me2">
@@ -158,7 +162,7 @@
         </div>
 
         <div class="hu3">
-            <a href="" id="bu">Marketing & Commerce</a>
+            <a href="" id="bu" class="mar">Marketing & Commerce</a>
             <div class="hu3-drop-down">
 
         <div class="me3">
@@ -256,7 +260,7 @@
         </div>
 
         <div class="hu4">
-            <a href="" id="bu">Learn & Support</a>
+            <a href="" id="bu" class="sup">Learn & Support</a>
             <div class="hu4-drop-down">
             
              <div class="me4">
@@ -328,59 +332,62 @@
                  </div>
             </div>
         </div>
-        <div class="dot">
-            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
-                <path d="M4.75 2.25H3.25C2.69772 2.25 2.25 2.69772 2.25 3.25V4.75C2.25 5.30228 2.69772 5.75 3.25 5.75H4.75C5.30228 5.75 5.75 5.30228 5.75 4.75V3.25C5.75 2.69772 5.30228 2.25 4.75 2.25Z"></path>
-                <path d="M10.75 2.25H9.25C8.69772 2.25 8.25 2.69772 8.25 3.25V4.75C8.25 5.30228 8.69772 5.75 9.25 5.75H10.75C11.3023 5.75 11.75 5.30228 11.75 4.75V3.25C11.75 2.69772 11.3023 2.25 10.75 2.25Z"></path>
-                <path d="M16.75 2.25H15.25C14.6977 2.25 14.25 2.69772 14.25 3.25V4.75C14.25 5.30228 14.6977 5.75 15.25 5.75H16.75C17.3023 5.75 17.75 5.30228 17.75 4.75V3.25C17.75 2.69772 17.3023 2.25 16.75 2.25Z"></path>
-                <path d="M4.75 8.25H3.25C2.69772 8.25 2.25 8.69772 2.25 9.25V10.75C2.25 11.3023 2.69772 11.75 3.25 11.75H4.75C5.30228 11.75 5.75 11.3023 5.75 10.75V9.25C5.75 8.69772 5.30228 8.25 4.75 8.25Z"></path>
-                <path d="M10.75 8.25H9.25C8.69772 8.25 8.25 8.69772 8.25 9.25V10.75C8.25 11.3023 8.69772 11.75 9.25 11.75H10.75C11.3023 11.75 11.75 11.3023 11.75 10.75V9.25C11.75 8.69772 11.3023 8.25 10.75 8.25Z"></path>
-                <path d="M16.75 8.25H15.25C14.6977 8.25 14.25 8.69772 14.25 9.25V10.75C14.25 11.3023 14.6977 11.75 15.25 11.75H16.75C17.3023 11.75 17.75 11.3023 17.75 10.75V9.25C17.75 8.69772 17.3023 8.25 16.75 8.25Z"></path>
-                <path d="M4.75 14.25H3.25C2.69772 14.25 2.25 14.6977 2.25 15.25V16.75C2.25 17.3023 2.69772 17.75 3.25 17.75H4.75C5.30228 17.75 5.75 17.3023 5.75 16.75V15.25C5.75 14.6977 5.30228 14.25 4.75 14.25Z"></path>
-                <path d="M10.75 14.25H9.25C8.69772 14.25 8.25 14.6977 8.25 15.25V16.75C8.25 17.3023 8.69772 17.75 9.25 17.75H10.75C11.3023 17.75 11.75 17.3023 11.75 16.75V15.25C11.75 14.6977 11.3023 14.25 10.75 14.25Z"></path>
-                <path d="M16.75 14.25H15.25C14.6977 14.25 14.25 14.6977 14.25 15.25V16.75C14.25 17.3023 14.6977 17.75 15.25 17.75H16.75C17.3023 17.75 17.75 17.3023 17.75 16.75V15.25C17.75 14.6977 17.3023 14.25 16.75 14.25Z"></path>
-            </svg>
-        </div>
-        <div class="il">
-           <a href="" id="bu">Sign in</a>
-        </div>
     </nav>
-
+    
+    <div class="dot">
+        <div class="path">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+            <path d="M4.75 2.25H3.25C2.69772 2.25 2.25 2.69772 2.25 3.25V4.75C2.25 5.30228 2.69772 5.75 3.25 5.75H4.75C5.30228 5.75 5.75 5.30228 5.75 4.75V3.25C5.75 2.69772 5.30228 2.25 4.75 2.25Z"></path>
+            <path d="M10.75 2.25H9.25C8.69772 2.25 8.25 2.69772 8.25 3.25V4.75C8.25 5.30228 8.69772 5.75 9.25 5.75H10.75C11.3023 5.75 11.75 5.30228 11.75 4.75V3.25C11.75 2.69772 11.3023 2.25 10.75 2.25Z"></path>
+            <path d="M16.75 2.25H15.25C14.6977 2.25 14.25 2.69772 14.25 3.25V4.75C14.25 5.30228 14.6977 5.75 15.25 5.75H16.75C17.3023 5.75 17.75 5.30228 17.75 4.75V3.25C17.75 2.69772 17.3023 2.25 16.75 2.25Z"></path>
+            <path d="M4.75 8.25H3.25C2.69772 8.25 2.25 8.69772 2.25 9.25V10.75C2.25 11.3023 2.69772 11.75 3.25 11.75H4.75C5.30228 11.75 5.75 11.3023 5.75 10.75V9.25C5.75 8.69772 5.30228 8.25 4.75 8.25Z"></path>
+            <path d="M10.75 8.25H9.25C8.69772 8.25 8.25 8.69772 8.25 9.25V10.75C8.25 11.3023 8.69772 11.75 9.25 11.75H10.75C11.3023 11.75 11.75 11.3023 11.75 10.75V9.25C11.75 8.69772 11.3023 8.25 10.75 8.25Z"></path>
+            <path d="M16.75 8.25H15.25C14.6977 8.25 14.25 8.69772 14.25 9.25V10.75C14.25 11.3023 14.6977 11.75 15.25 11.75H16.75C17.3023 11.75 17.75 11.3023 17.75 10.75V9.25C17.75 8.69772 17.3023 8.25 16.75 8.25Z"></path>
+            <path d="M4.75 14.25H3.25C2.69772 14.25 2.25 14.6977 2.25 15.25V16.75C2.25 17.3023 2.69772 17.75 3.25 17.75H4.75C5.30228 17.75 5.75 17.3023 5.75 16.75V15.25C5.75 14.6977 5.30228 14.25 4.75 14.25Z"></path>
+            <path d="M10.75 14.25H9.25C8.69772 14.25 8.25 14.6977 8.25 15.25V16.75C8.25 17.3023 8.69772 17.75 9.25 17.75H10.75C11.3023 17.75 11.75 17.3023 11.75 16.75V15.25C11.75 14.6977 11.3023 14.25 10.75 14.25Z"></path>
+            <path d="M16.75 14.25H15.25C14.6977 14.25 14.25 14.6977 14.25 15.25V16.75C14.25 17.3023 14.6977 17.75 15.25 17.75H16.75C17.3023 17.75 17.75 17.3023 17.75 16.75V15.25C17.75 14.6977 17.3023 14.25 16.75 14.25Z"></path>
+          </svg>
+        </div>
+    
+        <div class="il">
+         <a href="" id="bu">Sign in</a>
+        </div>
+    </div>
     <div class="div01">
         <div class="ba">
             ADOBE CREATIVE CLOUD
             <h1><b>Begin Your Creative Cloud Journey Today</b></h1>
             <p>Bring your best ideas to life with 20+ apps and generative AI tools in the All Apps plan</p>
-            <a href="#" class="free">free trial</a><a href="#" class="sell">Sell all plans</a>
+            <a href="https://www.adobe.com/ng/#mini-plans-web-cta-creative-cloud-card" class="free">free trial</a><a href="https://www.adobe.com/ng/creativecloud/plans.html" class="sell">Sell all plans</a>
         </div>
         
         <section class="me">
                 <div class="nu">
-                        <p><a href="https://www.adobe.com/products/photoshop.html">ADOBE PHOTOSHOP</a></p>
-                        <b><a href="https://www.adobe.com/products/photoshop.html">Create at the speed of imagination</a></b><br>
-                        <a href="https://www.adobe.com/products/photoshop.html">Fire up your imagination with the powerful Photoshop yet</a>
+                        <p><a href="https://www.adobe.com/products/photoshop.html" id="bu">ADOBE PHOTOSHOP</a></p>
+                        <b><a href="https://www.adobe.com/products/photoshop.html" id="bu">Create at the speed of imagination</a></b><br>
+                        <a href="https://www.adobe.com/products/photoshop.html" id="bu">Fire up your imagination with the powerful Photoshop yet</a>
                         <p><a href="https://www.adobe.com/products/photoshop.html" id="ba" class="lu">Learn more</a></p>
                     </div>
                 <div class="mu">
-                        <p><a href="https://www.adobe.com/express/?promoid=DZTGZSWP&mv=other">ADOBE EXPRESS</a></p>
-                        <b><a href="https://www.adobe.com/express/?promoid=DZTGZSWP&mv=other">The quick and easy create-anything app</a></b>
-                        <p><a href="https://www.adobe.com/express/?promoid=DZTGZSWP&mv=other">Create standout social posts, videos, flyers, and more</a></p>
+                        <p><a href="https://www.adobe.com/express/?promoid=DZTGZSWP&mv=other" id="bu">ADOBE EXPRESS</a></p>
+                        <b><a href="https://www.adobe.com/express/?promoid=DZTGZSWP&mv=other" id="bu">The quick and easy create-anything app</a></b>
+                        <p><a href="https://www.adobe.com/express/?promoid=DZTGZSWP&mv=other" id="bu">Create standout social posts, videos, flyers, and more</a></p>
                         <div><a href="https://www.adobe.com/express/?promoid=DZTGZSWP&mv=other" id="ba" class="ac">Get Adobe Express Free</a>
                 </div>
         </section>
     </div>    
     
 <div class="container">
-    <span class="label"><b>Get started fast with free tools</b></span>. 
-    <a href="" 
+    <span class="label"><b>Get started fast with free tools</b></span> 
+    <a href="https://www.adobe.com/ng/creativecloud.html?promoid=88X75SRR&mv=other" 
     class="ac"><i class="fa-regular fa-image"></i>Edit photos</a> 
-    <a href="" 
+    <a href="https://www.adobe.com/ng/creativecloud/buy/students.html?promoid=65FN7X8B&mv=other" 
     class="ac"><i class="fa-solid fa-video"></i> Edit videos</a>
-     <a href="" 
+     <a href="https://www.adobe.com/ng/creativecloud/photography.html?promoid=695P7SJ9&mv=other" 
      class="ac"><i class="fa-sharp fa-regular fa-file-pdf"></i> View PDFs</a> 
-     <a href="" 
+     <a href="https://www.adobe.com/ng/creativecloud/business.html?promoid=6DWQ7NS8&mv=other" 
      class="ac"><i class="fa-sharp fa-regular fa-file-pdf"></i> Edit PDFs</a> 
-     <a href="" 
+     <a href="https://stock.adobe.com/ng/?promoid=XB5KHPR7&mv=other&as_channel=adobe_com&as_source=homepage_rail&as_campclass=brand&as_audience=users&as_content=creative_cloud_for_adobe_stock" 
      class="ac"><i class="fa-solid fa-pen"></i> Fill and sign up</a>
 </div> 
 
@@ -393,7 +400,7 @@
         Focus on creativity with new features<br>
         that make your work easier.
         <p></p>
-        Learn more
+        <a href="https://www.adobe.com/ng/products/photoshop.html" id="bu">Learn more</a>
     </div>
     <div class="div2">
         <h1>Meet AI Assistant for</h1>
@@ -402,24 +409,24 @@
         Ask your document questions. Get one-<br>
         click summaries for fast insights and<br>
         level up your productivity<br>
-        <a href="">learn more</a>
+        <a href="https://www.adobe.com/ng/acrobat/generative-ai-pdf.html" id="bu">learn more</a>
     </div>
     <div class="div3">
         <div class="ll1">
             <h1>Creative Cloud</h1>
-            <h4>Creative Cloud All Apps Free trial</h4>
-            <h4>Creative Cloud for business</h4>
-            <h4>Creative pricing</h4>
+            <a href="https://www.adobe.com/ng/creativecloud/all-apps.html" id="bu">Creative Cloud All Apps Free trial</a>
+            <a href="https://www.adobe.com/ng/creativecloud/all-apps.html" id="bu">Creative Cloud for business</a>
+            <a href="https://www.adobe.com/ng/creativecloud/all-apps.html" id="bu">Creative pricing</a> 
         </div>
         <div class="ll">
             <h1>Acrobat</h1>
-            Acrobat free trial<br>
+            <a href="https://www.adobe.com/ng/#mini-plans-web-cta-acrobat-pro-card" id="bu">Acrobat free trial</a><br>
             <p></p>
-            Online PDF tools
+            <a href="https://www.adobe.com/ng/acrobat/online.html" id="bu">Online PDF tools</a>
             <p></p>
             <h1>Explore</h1>
-            View all products<br>
-            Sell all plans and pricing
+            <a href="https://www.adobe.com/ng/products/catalog.html" id="bu">View all products</a><br>
+            <a href="https://www.adobe.com/ng/creativecloud/plans.html" id="bu">Sell all plans and pricing</a>
         </div>
     </div>
 </section>
@@ -432,7 +439,7 @@
       productivity, and deliver engaging<br>
       experiences with Adobe software
       <p></p>
-      view all products
+      <a href="https://www.adobe.com/ng/products/illustrator.html" id="bu">view all products</a>
     </div>
     <div class="divv2">
        <h3>Adobe SUMMIT | MAR 17-20, 2025</h2>
@@ -443,7 +450,7 @@
        explore the future of digital<br>
        experiences.
        <p></p>
-       Register now.
+       <a href="https://business.adobe.com/ng/products/genstudio-for-performance-marketing.html" id="bu">Register now.</a>
     </div>
     <div class="divv3">
         <div class="lip">
@@ -456,7 +463,7 @@
             Adobe Anaytics reveals insights into all-<br>
             time high sales.
             <p></p>
-            <b>Read the story</b>
+            <a href="https://www.adobe.com/ng/creativecloud/buy/students.html" id="bu">Read the story</a>
             _____________________________________
             <b>Photoshop delivers powerful new</b><br>
             <b>innovations.</b>
@@ -464,49 +471,55 @@
             Features include Distraction Removal.<br>
             Generative Fill, and more.
             <p></p>
-            <b>Read the story</b>
+            <a href="https://www.adobe.com/ng/creativecloud/buy/students.html" id="bu">Read the story</a>
             ______________________________________
             <b>Adobe Express announces innovative</b><br>
             <b>new tools for creators.</b>
             <p></p>
             New features give creatives more options to grow their brands.<br>
-            <b>Read the story</b>
+            <a href="https://www.adobe.com/ng/creativecloud/buy/students.html" id="bu">Read the story</a>
         </div>
     </div>
 </section>
 
 <section class="sec3">
-    <div class="div10">
-        <b>Shop for</b> 
-        <p></p>
-        Creative Cloud
-        <p></p>
-        Photoshop
-        <p></p>
-        Adobe Express
-        <p></p>
-        Photography
-        <p></p>
-        Premiere Pro
-        <p></p>
-        Adobe Stock
-        <p></p>
-        Elements Family
-        <p></p>
-        Document Cloud
-        <p></p>
-        Acrobat
-        <p></p>
-        Acrobat sign
-        <p></p>
-        Special offers
-        <p></p>
-        View plans and pricing
-        <p></p>
-        View all products
+    <div class="hu5">
+        <a href="" id="bu">Shop For</a>
+        <div class="hu5-drop-down">
+           <div class="div10"> 
+           <p></p>
+           Creative Cloud
+           <p></p>
+           Photoshop
+           <p></p>
+           Adobe Express
+           <p></p>
+           Photography
+           <p></p>
+           Premiere Pro
+           <p></p>
+           Adobe Stock
+           <p></p>
+           Elements Family
+           <p></p>
+           Document Cloud
+           <p></p>
+           Acrobat
+           <p></p>
+           Acrobat sign
+           <p></p>
+           Special offers
+           <p></p>
+           View plans and pricing
+           <p></p>
+           View all products
+           </div>
+        </div>
     </div>
-    <div class="div11">
-        <b>For business</b>
+    <div class="hu6">
+        <a href="" id="bu">For Business</a>
+        <div class="hu6-drop-down">
+        <div class="div11">
         <p></p>
         Creative Cloud for business
         <p></p>
@@ -538,8 +551,10 @@
         <p></p>
         Apps for Andriod
     </div>
-    <div class="div13">
-        <b>Experience Cloud</b>
+    <div class="hu7">
+        <a href="" id="bu">Experience Cloud</a>
+        <div class="hu7-drop-down">
+        <div class="div13">
         <p></p>
         what is Experience Cloud?
         <p></p>
@@ -555,8 +570,10 @@
         <p></p>
         Terms of use 
     </div>
-    <div class="div14">
-        <b>Support</b>
+    <div class="hu8">
+        <a href="" id="bu">Support</a>
+        <div class="hu8-drop-down">
+        <div class="div14">
         <p></p>
         Download and install
         <p></p>
@@ -582,8 +599,10 @@
         <p></p>
         Log in to your account
     </div>
-    <div class="div15">
-        <b>Adobe</b>
+    <div class="hu9">
+        <a href="" id="bu">Adobe</a>
+        <div class="hu9-drop-down">
+        <div class="div15">
         <p></p>
         About
         <p></p>
@@ -615,17 +634,18 @@
             <h4>Featured products</h4>
         </div>
         <div class="lastdiv">
-          <a href=""><img src="images/adobe acrobat reader.png" width="20px">Adobe Acrobat Reader</a>
-          <a href=""><img src="images/adobe express.png" width="20px">Adobe Express</a>
-          <a href=""><img src="images/photoshop.png" width="20px">Photoshop</a>
-          <a href=""><img src="images/illustrator.png" width="20px">Illustrator</a>
+          <a href="https://get.adobe.com/reader/"><img src="images/adobe acrobat reader.png" width="20px">Adobe Acrobat Reader</a>
+          <a href="https://www.adobe.com/ng/express/?promoid=Z2G1FSYV&mv=other"><img src="images/adobe express.png" width="20px">Adobe Express</a>
+          <a href="https://www.adobe.com/ng/products/photoshop/free-trial-download.html"><img src="images/photoshop.png" width="20px">Photoshop</a>
+          <a href="https://www.adobe.com/ng/products/illustrator/free-trial-download.html"><img src="images/illustrator.png" width="20px">Illustrator</a>
         </div>
         </div>
         <hr>
     </div>
     <div class="lastdiv1">
-        <h5>copyright © 2025 Adobe. All rights reserved. / Privacy / Terms of Use / Cookie preferences / Do not sell or share my personal information / AdChoices</h3>
+        <h5>copyright © 2025 Adobe. All rights reserved. / <a href="https://www.adobe.com/ng/privacy.html" class="mk">Privacy</a>/<a href="https://www.adobe.com/ng/legal/terms.html" class="mk">Terms of Use</a> / <a href="https://www.adobe.com/ng/#openPrivacy" class="mk">Cookie preferences</a> / <a href="https://www.adobe.com/privacy/us-rights.html" class="mk">Do not sell or share my personal information</a> / <a href="https://www.adobe.com/ng/privacy/opt-out.html#interest-based-ads" class="mk">AdChoices</a></h3>
     </div>
+    <script src="script.js"></script>
 </body>
 
 </html>

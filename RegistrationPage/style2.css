@@ -28,14 +28,14 @@ nav {
     text-decoration: none;
 }
 
-.hu:hover .hu-drop-down {
+/* .hu:hover .hu-drop-down {
     display: flex;
     position: absolute;
     padding: 20px 20px 20px 20px;
     background-color: rgb(181, 161, 161);
     left: 60px;
     top: 50px;
-}
+} */
 
 .me{
   padding: 0px 100px 0px 0px;
@@ -110,7 +110,7 @@ nav {
     display: none;
 }
 
-.hu2:hover .hu2-drop-down {
+/* .hu2:hover .hu2-drop-down {
     display: flex;
     margin-left: 0px;
     position: absolute;
@@ -118,7 +118,7 @@ nav {
     background-color: rgb(181, 161, 161);
     left: 60px;
     top: 50px;
-}
+} */
 
 #acrobatplans {
     border: 0px solid black;
@@ -162,7 +162,7 @@ nav {
     display: none;
 }
 
-.hu3:hover .hu3-drop-down {
+/* .hu3:hover .hu3-drop-down {
     display: flex;
     margin-left: 20px;
     position: absolute;
@@ -170,7 +170,7 @@ nav {
     background-color: rgb(181, 161, 161);
     left: 60px;
     top: 50px;
-}
+} */
 
 #allpro {
     border: 3px solid black;
@@ -262,7 +262,7 @@ nav {
     display: none;
 }
 
-.hu4:hover .hu4-drop-down {
+/* .hu4:hover .hu4-drop-down {
     display: flex;
     margin-left: 0px;
     position: absolute;
@@ -270,7 +270,7 @@ nav {
     background-color: rgb(181, 161, 161);
     left: 60px;
     top: 50px;
-}
+} */
 
 .me4 {
     padding: 0px 100px 0px 0px;
@@ -475,12 +475,12 @@ label{
    background-position: bottom;
 }
 .div3{
-    height: 414px;    
+    /* height: 414px;      */
     display: block;
     z-index: 2;
     line-height: 21px;
     /* width: 400px; */
-    flex: 1px;
+    /* flex: 1px; */
     font-size: small;
 }
 
@@ -553,11 +553,11 @@ label{
  }
 
  .divv3 {
-    height: 414px;    
+    /* height: 414px;     */
     display: block;
     z-index: 2;
     line-height: 21px;
-    width: 200px;
+    /* width: 200px; */
     /* flex: 1px; */
  }
  .lip {
@@ -577,7 +577,7 @@ label{
 
 .lop {
   height: 440px;
-  width: 330px;
+  width: 328px;
   /* flex: 1; */
   border-bottom-left-radius: 16px;
   border-bottom-right-radius: 16px;
@@ -641,3 +641,234 @@ label{
     padding-top: 15px;
 }
 
+@media(width<450px) {
+    #menubar {
+        position: absolute;
+        display:flex;
+        padding: 10px;
+        left: 10px;
+        top: 0px;
+        width: 20%;
+    }
+    nav {
+        display: none;
+    }
+    .div01 {
+        background-size: cover;
+        margin-top: 20px;
+    }
+    .me {
+        display: block;
+    }
+    .mu {
+        width: 200px;
+    }
+    .nu {
+        width: 210px;
+        font-size: larger;
+    }
+    .div1{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        width: 310px;
+        margin-left: 15px;
+    }
+    .div2 {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        width: 310px;
+        margin-left: 15px;
+    }
+    .div3 , .ll , .ll1 {
+        margin-left: 10px;
+        width: 275px;
+    }
+    .divv1 {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        width: 310px;
+        margin-left: 15px;
+    }
+    .divv2 {
+        margin-top: auto;
+        margin-bottom: 20px;
+        margin-left: 15px;
+        width: 310px;
+    }
+    .divv3 {
+        margin-left: 8px;
+        /* width: 250px; */
+    }
+    .sec1 {
+        display: block;
+    }
+    .container {
+        display: grid;
+        /* flex-wrap: wrap; */
+        justify-content: center;
+        padding-left: 0%;
+        margin-top: 30px;
+        align-items: center;
+        text-align: center;
+        margin-left: 0px;
+        padding-right: 0%;
+    }
+    .sec2 {
+        display: block;
+    }
+    .sec3 {
+        display: block;
+    }
+    .feature {
+        display:none;
+    }
+    .div10 {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: 60px;
+    }
+    .div11 {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: 15px;
+    }
+    .div13{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .div14 {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .lastdiv1 {
+        display: none;
+    }
+    .dot {
+        position: static;
+        display: flex;
+        left: 150px;
+    }
+    .il {
+    position: absolute;
+    left: -60px;
+    width: 60px;
+    }
+
+    .adobe {
+        position: absolute;
+        top: 5px;
+        left: 40px;
+    }
+
+    .path {
+    position: absolute;
+    right: 100px;
+    }
+    .hu5 {
+        display: flex;
+        padding-left: 30px;
+        position: relative; /* Add this to position the dropdown correctly */
+    }
+    
+    .hu5-drop-down {
+        display: none;
+        text-decoration: none;
+    }
+    
+    .hu5:hover .hu5-drop-down {
+        display: flex;
+        position: absolute;
+        padding: 20px;
+        background-color: rgb(181, 161, 161);
+        left: 60px;
+        top: 50px;
+        z-index: 1000; /* Ensure the dropdown appears on top */
+    }
+    .hu6 {
+        display: flex;
+        padding-left: 30px;
+        position: relative; /* Add this to position the dropdown correctly */
+    }
+    
+    .hu6-drop-down {
+        display: none;
+        text-decoration: none;
+    }
+    
+    .hu6:hover .hu6-drop-down {
+        display: flex;
+        position: absolute;
+        padding: 20px;
+        background-color: rgb(181, 161, 161);
+        left: 40px;
+        top: 50px;
+        z-index: 1000; /* Ensure the dropdown appears on top */
+    }
+    .hu7 {
+        display: flex;
+        padding-left: 30px;
+        position: relative; /* Add this to position the dropdown correctly */
+    }
+    
+    .hu7-drop-down {
+        display: none;
+        text-decoration: none;
+    }
+    
+    .hu7:hover .hu7-drop-down {
+        display: flex;
+        position: absolute;
+        padding: 20px;
+        background-color: rgb(181, 161, 161);
+        left: 40px;
+        top: 50px;
+        z-index: 1000; /* Ensure the dropdown appears on top */
+    }
+
+    .hu8 {
+        display: flex;
+        padding-left: 30px;
+        position: relative; /* Add this to position the dropdown correctly */
+    }
+    
+    .hu8-drop-down {
+        display: none;
+        text-decoration: none;
+    }
+    
+    .hu8:hover .hu8-drop-down {
+        display: flex;
+        position: absolute;
+        padding: 20px;
+        background-color: rgb(181, 161, 161);
+        left: 40px;
+        top: 50px;
+        z-index: 1000; /* Ensure the dropdown appears on top */
+    }
+    .hu9 {
+        display: flex;
+        padding-left: 30px;
+        position: relative; /* Add this to position the dropdown correctly */
+    }
+    
+    .hu9-drop-down {
+        display: none;
+        text-decoration: none;
+    }
+    
+    .hu9:hover .hu9-drop-down {
+        display: flex;
+        position: absolute;
+        padding: 20px;
+        background-color: rgb(181, 161, 161);
+        left: 40px;
+        top: 50px;
+        z-index: 1000; /* Ensure the dropdown appears on top */
+    }
+    
+}
+.mk {
+    text-decoration: none;
+    color: black;
+    display:inline-block;
+}
