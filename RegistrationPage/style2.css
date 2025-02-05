@@ -674,7 +674,7 @@ label{
     }
     .div01 {
         background-size: cover;
-        margin-top: 20px;
+        margin-top: 30px;
     }
     .me {
         display: block;
@@ -763,13 +763,14 @@ label{
         display: none;
     }
     .dot {
-        position: static;
+        position: absolute;
         display: flex;
         left: 150px;
     }
     .il {
     position: absolute;
-    left: -60px;
+    left: -170px;
+    bottom: 5px;
     width: 60px;
     }
 
@@ -781,12 +782,12 @@ label{
 
     .path {
     position: absolute;
-    right: 100px;
+    left: 150px;
     }
     .hu5 {
         display: flex;
         padding-left: 30px;
-        position: relative; /* Add this to position the dropdown correctly */
+        position: absolute;
     }
     
     .hu5-drop-down {
@@ -806,7 +807,7 @@ label{
     .hu6 {
         display: flex;
         padding-left: 30px;
-        position: relative; /* Add this to position the dropdown correctly */
+        position: absolute; /* Add this to position the dropdown correctly */
     }
     
     .hu6-drop-down {
@@ -820,13 +821,13 @@ label{
         padding: 20px;
         background-color: rgb(181, 161, 161);
         left: 40px;
-        top: 50px;
+        /* top: 50px; */
         z-index: 1000; /* Ensure the dropdown appears on top */
     }
     .hu7 {
         display: flex;
         padding-left: 30px;
-        position: relative; /* Add this to position the dropdown correctly */
+        position: absolute; /* Add this to position the dropdown correctly */
     }
     
     .hu7-drop-down {
@@ -840,14 +841,14 @@ label{
         padding: 20px;
         background-color: rgb(181, 161, 161);
         left: 40px;
-        top: 50px;
+        /* top: 50px; */
         z-index: 1000; /* Ensure the dropdown appears on top */
     }
 
     .hu8 {
         display: flex;
         padding-left: 30px;
-        position: relative; /* Add this to position the dropdown correctly */
+        position: absolute; /* Add this to position the dropdown correctly */
     }
     
     .hu8-drop-down {
@@ -861,13 +862,13 @@ label{
         padding: 20px;
         background-color: rgb(181, 161, 161);
         left: 40px;
-        top: 50px;
+        /* top: 50px; */
         z-index: 1000; /* Ensure the dropdown appears on top */
     }
     .hu9 {
         display: flex;
         padding-left: 30px;
-        position: relative; /* Add this to position the dropdown correctly */
+        position: absolute; /* Add this to position the dropdown correctly */
     }
     
     .hu9-drop-down {
@@ -881,7 +882,7 @@ label{
         padding: 20px;
         background-color: rgb(181, 161, 161);
         left: 40px;
-        top: 50px;
+        /* top: 50px; */
         z-index: 1000; /* Ensure the dropdown appears on top */
     }
     
